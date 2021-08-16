@@ -80,7 +80,7 @@ const List = () => {
             console.log(err);
           });
       }
-      if (category === "Breaking Bad") {
+      if (category === "Better Call Saul") {
         axios
           .get(
             "https://www.breakingbadapi.com/api/characters?category=Better+Call+Saul"
